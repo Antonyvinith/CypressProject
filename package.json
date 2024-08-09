@@ -1,0 +1,23 @@
+{
+  "name": "compassautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+    "@cucumber/gherkin": "^28.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.13.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-wait-until": "^3.0.1"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "exceljs": "^4.4.0"
+  }
+}
